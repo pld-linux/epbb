@@ -6,7 +6,7 @@ Release:	0.%{_snap}.0.3
 License:	BSD
 Group:		X11/Applications
 #Source0:	http://dl.sourceforge.net/enlightenment/%{name}-%{version}.tar.gz
-Source0:	ftp://ftp.sparky.homelinux.org/snaps/enli/misc/%{name}-%{_snap}.tar.gz
+Source0:	http://sparky.homelinux.org/snaps/enli/misc/%{name}-%{_snap}.tar.gz
 # Source0-md5:	997c060d20720caba7f7d30a24fc5042
 Source1:	%{name}-metalsphere.png
 URL:		http://enlightenment.org/
