@@ -1,4 +1,5 @@
 Summary:	pbbuttonsd client using EFL
+Summary(pl):	Klient pbbuttonsd u¿ywaj±cy EFL
 Name:		epbb
 Version:	0.0.5
 %define	_snap	20050701
@@ -12,9 +13,10 @@ Source1:	%{name}-metalsphere.png
 URL:		http://enlightenment.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	edje-devel
 BuildRequires:	ecore-devel
+BuildRequires:	edje-devel
 BuildRequires:	evas-devel
+BuildRequires:	libtool
 BuildRequires:	pbbuttonsd-lib
 BuildRequires:	sed >= 4.0
 Requires:	fonts-TTF-bitstream-vera
@@ -22,8 +24,12 @@ ExclusiveArch:	%{ix86} ppc
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-pbbuttonsd client using EFL. Only thing it can do is checking
-battery status.
+pbbuttonsd client using EFL. Only thing it can do is checking battery
+status.
+
+%description -l pl
+Klient pbbuttonsd u¿ywaj±cy EFL. Jedyne co potrafi to sprawdzanie
+stanu baterii.
 
 %prep
 %setup -q -n %{name}
