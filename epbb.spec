@@ -1,5 +1,5 @@
 Summary:	pbbuttonsd client using EFL
-Summary(pl.UTF-8):   Klient pbbuttonsd używający EFL
+Summary(pl.UTF-8):	Klient pbbuttonsd używający EFL
 Name:		epbb
 Version:	0.0.5
 %define	_snap	20050701
