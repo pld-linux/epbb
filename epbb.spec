@@ -1,5 +1,5 @@
 Summary:	pbbuttonsd client using EFL
-Summary(pl):	Klient pbbuttonsd u¿ywaj±cy EFL
+Summary(pl.UTF-8):   Klient pbbuttonsd uÅ¼ywajÄ…cy EFL
 Name:		epbb
 Version:	0.0.5
 %define	_snap	20050701
@@ -27,8 +27,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 pbbuttonsd client using EFL. Only thing it can do is checking battery
 status.
 
-%description -l pl
-Klient pbbuttonsd u¿ywaj±cy EFL. Jedyne co potrafi to sprawdzanie
+%description -l pl.UTF-8
+Klient pbbuttonsd uÅ¼ywajÄ…cy EFL. Jedyne co potrafi to sprawdzanie
 stanu baterii.
 
 %prep
